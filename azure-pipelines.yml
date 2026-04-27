@@ -6,7 +6,8 @@
 trigger:
 - main
 
-pool: Test Agent New
+pool: 
+  name: 'Test Agent New'
 
 steps:
 - task: Maven@4
